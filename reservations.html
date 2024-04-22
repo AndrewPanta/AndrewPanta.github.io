@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lunar Paradise</title>
+    <meta charset="utf-8">
+    <link href="Proyect.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="box">
+        <header>
+            <h1>Lunar Paradise</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Introduction</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="reservations.html">Reservation</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Flight Reservations</h2>
+            <h3>Book Your Flight Now!</h3>
+            <p>Let us your information to contact you. Required fields are marked with an asterisk *</p>
+            <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <label for="myFName">*First Name:</label>
+                <input type="text" name="myFName" id="myFName" required>
+                <label for="myLName">*Last Name:</label>
+                <input type="text" name="myLName" id="myLName" required>
+                <label for="myEmail">*E-mail:</label>
+                <input type="email" name="myEmail" id="myEmail" required>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" maxlength="12">
+                <input type="submit" value="Submit">
+            </form>
+
+        </main>
+        <footer>
+            Copyright &copy; 2020 Lunar Paradise<br>
+            <a href="mailto:LunarParadise@Travels.com">LunarParadise@Travels.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>

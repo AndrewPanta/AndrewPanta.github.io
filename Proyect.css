@@ -1,0 +1,193 @@
+body {
+    background-color: #f5f5dc;
+    color: #333333;
+    background-image: linear-gradient(to bottom, #f5f5dc, #ffcccc);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: #f0d5d5;
+    background-image: url("background.jpg");
+    height: 90px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 3em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    font-size: 120%;
+    float: right;
+    width: 160px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none
+}
+
+nav a:link {
+    color: #708faf;
+}
+
+nav a:visited {
+    color: #62728f;
+}
+
+nav a:hover {
+    color: #64cce3;
+}
+
+nav ul {
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 1em;
+    padding-right: 0;
+    font-size: 1.2em;
+}
+
+main {
+    background-color: #ffe0e0;
+    margin-right: 190px;
+    display: block;
+    padding: 1px 20px 20px 30px;
+    overflow: auto;
+}
+
+main ul {
+    margin-left: 2em;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+}
+
+h2 {
+    color: #19bdd2;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+footer {
+    background-color: #ffe0e0;
+    margin-right: 190px;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 2em;
+}
+
+.resort {
+    color: #19bdd2;
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+section {
+    float: right;
+    width: 33%;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+#trip {
+    height: 300px;
+    background-image: url("Travel.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: 190px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+#air {
+    height: 300px;
+    background-image: url("airplane.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-right: 190px;
+}
+
+#box {
+    background-color: #f5f5dc;
+    background-image: linear-gradient(to bottom, #f5f5dc, #ffcccc);
+    width: 90%;
+    min-width: 960px;
+    max-width: 2048px;
+    border: 1px solid #000033;
+    margin: 0 auto;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+table {
+    border: 2px solid #3399cc;
+    border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+td {
+    padding: 0.5em;
+    border: 2px solid #3399cc;
+    text-align: center;
+    background-color: #f4f0f0;
+}
+
+th {
+    padding: 0.5em;
+    border: 2px solid #19bdd2;
+    background-color: #9fcde0;
+}
+
+.align {
+    text-align: left;
+}
+
+#prices {
+    clear: both;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+form {
+    background-color: #c0e8fb;
+    font-family: Georgia, 'Times New Roman', serif;
+    width: 350px;
+    padding: 10px;
+}
